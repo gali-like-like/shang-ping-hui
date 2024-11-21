@@ -1,0 +1,106 @@
+/*设置版心*/
+.container {
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+}
+.content {
+    background-color: #ECECEC;
+}
+
+
+/*设置body*/
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+/*#region设置顶部导航栏start*/
+.rightfix {
+    float: right;
+}
+
+.left {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.right {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.topbar {
+    font-size: 12px;
+    font-family: "PingFang SC";
+}
+
+.welcome {
+    padding-right: 28px;
+}
+
+.left>.login {
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+}
+
+.left>.register {
+    padding-left: 10px;
+}
+
+.leftfix {
+    float: left;
+}
+
+.left>div {
+    color :#666666;
+}
+
+.right>div {
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #666666;
+}
+
+.right>div:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.right>div:first-child {
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear:both;
+}
+/*#endregion导航栏end*/
+
+/*#region头部*/
+.search {
+    margin-top: 42px;
+    font-size: 0px;
+}
+.btn_search {
+    margin: 0px;
+    padding: 0px;
+    width: 78px;
+    height: 34px !important;
+    border: 1px solid #DD302D;
+    vertical-align: bottom;
+}
+.input_search {
+    width: 508px;
+    height: 34px;
+    padding: 0px;
+    border: 1px solid #DD302D;
+}
+/*#endregion头部*/
